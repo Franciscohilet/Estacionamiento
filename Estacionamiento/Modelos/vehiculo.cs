@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Estacionamiento.Vistas
 {
-    public abstract class vehiculo
+    public class vehiculo
     {
         public string telefono { get; set; }
         public string modelo { get; set; }
@@ -15,6 +15,18 @@ namespace Estacionamiento.Vistas
         public string tiempo { get; set; }
         public double precio { get; set; }
         public string patente { get; set; }
+        public string tipovehiculo { get; set; }
+
+        public vehiculo(string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
+        {
+            this.telefono = telefono;
+            this.modelo = modelo;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.tipovehiculo = tipovehiculo;
+            this.patente = patente;
+        }
     }
+
 }
 

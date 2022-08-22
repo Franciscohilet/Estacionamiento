@@ -1,0 +1,9 @@
+﻿Dia Uno
+
+Vistas: - FormPrincipal terminado
+		- FormCarga a terminar, modificar primero dia/mes, luego datos vehiculo o cliente
+
+Modelos: Terminado Parcial
+
+Control:	- Dia y mes separar con if en funcion agregar
+			- Crear funcion para corroborar datos de dia

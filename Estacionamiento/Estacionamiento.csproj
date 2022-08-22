@@ -47,10 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\estacionamiento.cs" />
-    <Compile Include="Modelos\auto.cs" />
-    <Compile Include="Modelos\camioneta.cs" />
     <Compile Include="Modelos\Icrud.cs" />
-    <Compile Include="Modelos\moto.cs" />
     <Compile Include="Modelos\vehiculo.cs" />
     <Compile Include="Vistas\FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -75,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\FormCarga.resx">
+      <DependentUpon>FormCarga.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,7 +92,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TextFile1.txt" />
+    <Content Include="Consigna.txt" />
+    <Content Include="Documentacion.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
