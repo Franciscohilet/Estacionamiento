@@ -9,16 +9,18 @@ namespace Estacionamiento.Vistas
     public class estacionamiento
     {
         //Vehiculos vehiculos = new Vehiculos();
-        // corrobora que los datos no esten vacios
-        public vehiculo corroborardatos (string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
+        // corrobora que los datos no esten vacios y devolver la carga realizada
+        public vehiculo Agregar (string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
         {
-            if (telefono != ""; modelo != ""; nombre != ""; apellido != ""; patente != ""; tipovehiculo!="")
+            if (telefono != "" || modelo != "" || nombre != "" || apellido != "" || patente != "" || tipovehiculo !="")
             {
-                vehiculo aux = vehiculo ()
-                return ;
+                return null;
             }
             else
-            { return false; }
+            { 
+                vehiculo aux = new vehiculo(telefono, modelo, nombre, apellido, patente, tipovehiculo);
+                return aux;
+            }
         }
     }
 }

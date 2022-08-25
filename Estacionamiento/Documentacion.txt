@@ -16,6 +16,8 @@ Ademas un usuario administrado el cual sea el unico que pueda crear y eliminar u
 - Parte de administracion solo UsuarioAdmin (hacer form administracion)
 - Se crean usuarios desde el form de administracion 
 
+Proram principal, cada tab debe tener una playa de estacionamiento
+
 
 Dia Uno
 

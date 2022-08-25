@@ -104,9 +104,9 @@
             // 
             // txt_respuestapregunta
             // 
-            this.txt_respuestapregunta.Location = new System.Drawing.Point(13, 160);
+            this.txt_respuestapregunta.Location = new System.Drawing.Point(13, 157);
             this.txt_respuestapregunta.Name = "txt_respuestapregunta";
-            this.txt_respuestapregunta.Size = new System.Drawing.Size(152, 32);
+            this.txt_respuestapregunta.Size = new System.Drawing.Size(212, 32);
             this.txt_respuestapregunta.TabIndex = 7;
             // 
             // lbl_pregunta

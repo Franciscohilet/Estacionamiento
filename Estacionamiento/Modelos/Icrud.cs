@@ -8,7 +8,8 @@ namespace Estacionamiento.Vistas
 {
     public interface crud <T>
     {
-        void agregar(int T);
-        void eliminar(int T);
+        void agregar();
+        void modificar();
+        void eliminar();
     }
 }
