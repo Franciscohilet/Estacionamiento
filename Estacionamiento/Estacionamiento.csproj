@@ -49,6 +49,12 @@
     <Compile Include="Control\estacionamiento.cs" />
     <Compile Include="Modelos\Icrud.cs" />
     <Compile Include="Modelos\vehiculo.cs" />
+    <Compile Include="Vistas\Facturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Facturacion.Designer.cs">
+      <DependentUpon>Facturacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
