@@ -26,3 +26,7 @@ Modelos: Terminado Parcial
 
 Control:	- Dia y mes separar con if en funcion agregar
 			- Crear funcion para corroborar datos de dia
+
+Dia Dos
+
+Vistas: -FALTA NOMBRAR CASI TODO

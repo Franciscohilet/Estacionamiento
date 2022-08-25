@@ -9,6 +9,7 @@ namespace Estacionamiento.Vistas
     public class estacionamiento
     {
         //Vehiculos vehiculos = new Vehiculos();
+        // corrobora que los datos no esten vacios
         public vehiculo corroborardatos (string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
         {
             if (telefono != ""; modelo != ""; nombre != ""; apellido != ""; patente != ""; tipovehiculo!="")
@@ -19,12 +20,5 @@ namespace Estacionamiento.Vistas
             else
             { return false; }
         }
-        public void agregar ()
-        {
-            vehiculo aux = new vehiculo ();
-            this.vehiculos.agregar(aux);
-        }
-
-        
-      }
+    }
 }
