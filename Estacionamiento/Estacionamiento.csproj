@@ -49,11 +49,11 @@
     <Compile Include="Control\estacionamiento.cs" />
     <Compile Include="Modelos\Icrud.cs" />
     <Compile Include="Modelos\vehiculo.cs" />
-    <Compile Include="Vistas\Facturacion.cs">
+    <Compile Include="Vistas\FormCobro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\Facturacion.Designer.cs">
-      <DependentUpon>Facturacion.cs</DependentUpon>
+    <Compile Include="Vistas\FormCobro.Designer.cs">
+      <DependentUpon>FormCobro.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -100,6 +100,7 @@
   <ItemGroup>
     <Content Include="Consigna.txt" />
     <Content Include="Documentacion.txt" />
+    <Content Include="Modelos\NewFile1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Estacionamiento.Vistas
 {
-    public partial class Facturacion : Form
+    public partial class FormCobro : Form
     {
-        public Facturacion()
+        public FormCobro()
         {
             InitializeComponent();
         }

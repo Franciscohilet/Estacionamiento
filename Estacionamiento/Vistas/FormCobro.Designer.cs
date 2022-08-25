@@ -1,6 +1,6 @@
 ﻿namespace Estacionamiento.Vistas
 {
-    partial class Facturacion
+    partial class FormCobro
     {
         /// <summary>
         /// Required designer variable.

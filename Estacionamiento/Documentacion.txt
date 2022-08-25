@@ -1,4 +1,18 @@
-﻿Dia Uno
+﻿
+El programa principal debe contener:
+- selecionar lugar de estacionamiento a ocupar
+- un lugar donde ver facturacion (mensual y diaria)(auto, fecha, tipo de pago, monto, nom. propietario)
+- a partir de seleccion de lugar de estacionamiento, carga de clientes + cobro de estacionamiento
+- Administracion, precios actuales, cambio de precios 
+-El programa debe contener un login de usuario donde se cargue/ingrese el empleado 
+este debe contener: Nom. usuario, contraseña, pregunta secreta(5 posibles), cambiar la contraseña. Ademas un usuario administrado 
+el cual sea el unico que pueda crear y eliminar usuarios. 
+- Usuarios unicos (agregar nom usuario en forms)
+- contraseña 6-10 digitos entre letras y numeros
+- Parte de administracion solo UsuarioAdmin (hacer form administracion)
+
+
+Dia Uno
 
 Vistas: - FormPrincipal terminado
 		- FormCarga a terminar, modificar primero dia/mes, luego datos vehiculo o cliente
