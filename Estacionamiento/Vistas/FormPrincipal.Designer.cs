@@ -353,6 +353,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox7);
             this.tabPage2.Controls.Add(this.groupBox_Tarifas);
             this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -851,7 +852,7 @@
             // 
             this.groupBox7.Controls.Add(this.dataGridView1);
             this.groupBox7.Font = new System.Drawing.Font("Rockwell", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(0, 24);
+            this.groupBox7.Location = new System.Drawing.Point(291, 324);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(829, 564);
             this.groupBox7.TabIndex = 3;
@@ -861,14 +862,13 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 38);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(792, 511);
             this.dataGridView1.TabIndex = 21;
             // 
             // groupBox_Tarifas
             // 
-            this.groupBox_Tarifas.Controls.Add(this.groupBox7);
             this.groupBox_Tarifas.Controls.Add(this.button26);
             this.groupBox_Tarifas.Controls.Add(this.button25);
             this.groupBox_Tarifas.Controls.Add(this.groupBox4);
@@ -881,7 +881,7 @@
             this.groupBox_Tarifas.Controls.Add(this.label1);
             this.groupBox_Tarifas.Controls.Add(this.panel2);
             this.groupBox_Tarifas.Font = new System.Drawing.Font("Rockwell", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox_Tarifas.Location = new System.Drawing.Point(301, 6);
+            this.groupBox_Tarifas.Location = new System.Drawing.Point(307, 6);
             this.groupBox_Tarifas.Name = "groupBox_Tarifas";
             this.groupBox_Tarifas.Size = new System.Drawing.Size(829, 602);
             this.groupBox_Tarifas.TabIndex = 1;

@@ -10,16 +10,35 @@ namespace Estacionamiento.Vistas
     {
         //Vehiculos vehiculos = new Vehiculos();
         // corrobora que los datos no esten vacios y devolver la carga realizada
-        public vehiculo Agregar (string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
+        public bool Agregar (string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
         {
             if (telefono != "" || modelo != "" || nombre != "" || apellido != "" || patente != "" || tipovehiculo !="")
             {
-                return null;
+                return false;
             }
             else
             { 
                 vehiculo aux = new vehiculo(telefono, modelo, nombre, apellido, patente, tipovehiculo);
-                return aux;
+                //Vehiculos.add(aux);
+
+                return true;
+            }
+        }
+
+        //retirar vehiculo de la lista estacionamiento
+        public bool Retirar (string patente)
+        {
+            foreach(var vehiculo in Vehiculos)
+            {
+                if (vehiculo.patente == patente)
+                {
+                    //Vehiculos.Remove(aux);
+                    break;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
     }
