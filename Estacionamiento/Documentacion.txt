@@ -31,4 +31,11 @@ Control:	- Dia y mes separar con if en funcion agregar
 
 Dia Dos
 
-Vistas: -FALTA NOMBRAR CASI TODO
+Vistas: - FALTA NOMBRAR CASI TODO
+		- Conectar todas las vistas
+
+Control:	- Terminar estacionamiento (revisar lista)
+			- Dia y mes separar con if en funcion agregar
+			- Crear funcion para corroborar datos de dia
+			
+	

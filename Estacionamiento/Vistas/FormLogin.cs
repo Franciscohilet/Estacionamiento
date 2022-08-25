@@ -16,5 +16,6 @@ namespace Estacionamiento.Vistas
         {
             InitializeComponent();
         }
+
     }
 }

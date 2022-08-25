@@ -3,29 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Estacionamiento.Modelos;
+using Estacionamiento.Vistas;
 
 namespace Estacionamiento.Data
 {
-    internal class Vehiculos
+    public class Vehiculos
     {
-        List<vehiculo> Vehiculos = new List<vehiculo>();
+        List<vehiculo> Vehiculoslist = new List<vehiculo>();
 
+        // agregar vehiculos a la lista
         public void Add(vehiculo aux)
         {
-            if (!this.Exist(X.Name))
+            if (!this.Exist(aux.patente))
             {
-                Vehiculos.Add(aux);
+                Vehiculoslist.Add(aux);
             }
-
         }
 
-        public bool Exist(string nombre)
+        public bool Exist(string patente)
         {
             bool exist = false;
 
-            foreach (User X in users)
+            foreach (vehiculo aux in Vehiculoslist)
             {
-                if (X.Name == nombre)
+                if (aux.patente == patente)
                 {
                     exist = true;
                     break;
@@ -33,41 +35,28 @@ namespace Estacionamiento.Data
             }
             return exist;
         }
-        public void Delete(User X)
+
+        public void Remove(vehiculo aux)
         {
-            users.Remove(X);
+            Vehiculoslist.Remove(aux);
         }
 
-        public List<User> ViewList()
+        public List<vehiculo> VerLista()
         {
-            return users;
+            return Vehiculoslist;
         }
 
-        public User ViewUser(string name)
+        public vehiculo VerVehiculo(string patente)
         {
-            foreach (User user in users)
+            foreach (vehiculo vehiculo in Vehiculoslist)
             {
-                if (user.Name == name)
+                if (vehiculo.patente == patente)
                 {
-                    return user;
+                    return vehiculo;
 
                 }
             }
             return null;
         }
-        public void Update(User X)
-        {
-            for (int i = 0; i < users.Count; i++)
-            {
-                if (users[i].Name == X.Name)
-                {
-
-                    users[i].Password = X.Password;
-                }
-            }
-        }
-
-        public int Count { get { return users.Count; } }
     }
-}
 }

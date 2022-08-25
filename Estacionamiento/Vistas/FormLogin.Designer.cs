@@ -36,8 +36,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
+            this.lbl_olvidecontrasenia = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,8 +69,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lbl_olvidecontrasenia);
             this.groupBox1.Controls.Add(this.button22);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label4);
@@ -115,16 +115,6 @@
             this.textBox3.Size = new System.Drawing.Size(149, 32);
             this.textBox3.TabIndex = 5;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 329);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 19);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Olvide la contraseña";
-            // 
             // button22
             // 
             this.button22.Location = new System.Drawing.Point(79, 201);
@@ -133,6 +123,17 @@
             this.button22.TabIndex = 7;
             this.button22.Text = "Ingresar";
             this.button22.UseVisualStyleBackColor = true;
+            // 
+            // lbl_olvidecontrasenia
+            // 
+            this.lbl_olvidecontrasenia.AutoSize = true;
+            this.lbl_olvidecontrasenia.Font = new System.Drawing.Font("Rockwell", 12F);
+            this.lbl_olvidecontrasenia.Location = new System.Drawing.Point(6, 330);
+            this.lbl_olvidecontrasenia.Name = "lbl_olvidecontrasenia";
+            this.lbl_olvidecontrasenia.Size = new System.Drawing.Size(160, 19);
+            this.lbl_olvidecontrasenia.TabIndex = 8;
+            this.lbl_olvidecontrasenia.TabStop = true;
+            this.lbl_olvidecontrasenia.Text = "Olvide la contraseña";
             // 
             // FormLogin
             // 
@@ -162,7 +163,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.LinkLabel lbl_olvidecontrasenia;
     }
 }

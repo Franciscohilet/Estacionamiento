@@ -72,7 +72,7 @@
             // 
             this.txt_contranueva.Location = new System.Drawing.Point(213, 20);
             this.txt_contranueva.Name = "txt_contranueva";
-            this.txt_contranueva.Size = new System.Drawing.Size(149, 32);
+            this.txt_contranueva.Size = new System.Drawing.Size(169, 32);
             this.txt_contranueva.TabIndex = 5;
             // 
             // label3
