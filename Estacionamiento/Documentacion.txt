@@ -5,11 +5,16 @@ El programa principal debe contener:
 - a partir de seleccion de lugar de estacionamiento, carga de clientes + cobro de estacionamiento
 - Administracion, precios actuales, cambio de precios 
 -El programa debe contener un login de usuario donde se cargue/ingrese el empleado 
-este debe contener: Nom. usuario, contraseña, pregunta secreta(5 posibles), cambiar la contraseña. Ademas un usuario administrado 
-el cual sea el unico que pueda crear y eliminar usuarios. 
+este debe contener: Nombre, Apellido, Num de documento, Nom. usuario, contraseña, pregunta secreta(5 posibles),
+cambiar la contraseña. 
+Si es la primera vez que inicia sesion debe selecconar pregunta de seguridad
+			(si la variable de pregunta esta nula entonces se carga)
+
+Ademas un usuario administrado el cual sea el unico que pueda crear y eliminar usuarios. 
 - Usuarios unicos (agregar nom usuario en forms)
 - contraseña 6-10 digitos entre letras y numeros
 - Parte de administracion solo UsuarioAdmin (hacer form administracion)
+- Se crean usuarios desde el form de administracion 
 
 
 Dia Uno
