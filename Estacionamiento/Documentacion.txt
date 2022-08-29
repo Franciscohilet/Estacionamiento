@@ -19,7 +19,7 @@ Ademas un usuario administrado el cual sea el unico que pueda crear y eliminar u
 Proram principal, cada tab debe tener una playa de estacionamiento
 
 
-Dia Uno
+//Dia Uno
 
 Vistas: - FormPrincipal terminado
 		- FormCarga a terminar, modificar primero dia/mes, luego datos vehiculo o cliente
@@ -29,7 +29,7 @@ Modelos: Terminado Parcial
 Control:	- Dia y mes separar con if en funcion agregar
 			- Crear funcion para corroborar datos de dia
 
-Dia Dos
+//Dia Dos
 
 Vistas: - FALTA NOMBRAR CASI TODO
 		- Conectar todas las vistas
@@ -37,5 +37,15 @@ Vistas: - FALTA NOMBRAR CASI TODO
 Control:	- Terminar estacionamiento (revisar lista)
 			- Dia y mes separar con if en funcion agregar
 			- Crear funcion para corroborar datos de dia
-			
+
+//Dia tres
+
+Vistas: - FALTA NOMBRAR LA PARTE DE ADMINISTRACION Y ALGUN QUE OTRO CONTROLADOR
+		- Agregar boton modificar en formadministracion/usuarios
+		- Hacer form de cobro
+		- Conectar forms que faltan
+
+Control: - Crear lista empleados
+		 - Control de precios dia/mes/hora
+
 	
