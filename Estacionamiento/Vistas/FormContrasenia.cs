@@ -21,5 +21,10 @@ namespace Estacionamiento.Vistas
         {
 
         }
+
+        private void btn_corroborarrespuesta_Click(object sender, EventArgs e)
+        {
+           // if 
+        }
     }
 }

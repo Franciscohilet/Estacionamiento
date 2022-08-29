@@ -27,6 +27,12 @@ namespace Estacionamiento
                 carga.Owner = this;
                 carga.ShowDialog();
             }
+            else
+            {
+                FormCobro cobro = new FormCobro();
+                cobro.Owner = this;
+                cobro.ShowDialog();
+            }
         }
     }
 }

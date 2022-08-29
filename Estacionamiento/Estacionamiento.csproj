@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\Carga.cs" />
+    <Compile Include="Control\Cobro.cs" />
     <Compile Include="Control\estacionamiento.cs" />
+    <Compile Include="Data\Empleados.cs" />
     <Compile Include="Data\Vehiculos.cs" />
     <Compile Include="Modelos\Empleado.cs" />
     <Compile Include="Modelos\Icrud.cs" />

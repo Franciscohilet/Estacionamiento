@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.mktxt_telefono = new System.Windows.Forms.MaskedTextBox();
+            this.txt_apellido = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtn_camioneta = new System.Windows.Forms.RadioButton();
+            this.rbtn_moto = new System.Windows.Forms.RadioButton();
+            this.rbtn_auto = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_patente = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.rbtn_dia = new System.Windows.Forms.RadioButton();
+            this.rbtn_mes = new System.Windows.Forms.RadioButton();
             this.btn_regresar = new System.Windows.Forms.Button();
             this.btn_aceptar_carga = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -55,9 +55,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.mktxt_telefono);
+            this.groupBox1.Controls.Add(this.txt_apellido);
+            this.groupBox1.Controls.Add(this.txt_nombre);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -69,27 +69,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Cliente";
             // 
-            // maskedTextBox1
+            // mktxt_telefono
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(112, 82);
-            this.maskedTextBox1.Mask = "(999)000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(165, 32);
-            this.maskedTextBox1.TabIndex = 4;
+            this.mktxt_telefono.Location = new System.Drawing.Point(112, 82);
+            this.mktxt_telefono.Mask = "(999)000-0000";
+            this.mktxt_telefono.Name = "mktxt_telefono";
+            this.mktxt_telefono.Size = new System.Drawing.Size(165, 32);
+            this.mktxt_telefono.TabIndex = 4;
             // 
-            // textBox3
+            // txt_apellido
             // 
-            this.textBox3.Location = new System.Drawing.Point(359, 38);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(136, 32);
-            this.textBox3.TabIndex = 5;
+            this.txt_apellido.Location = new System.Drawing.Point(359, 38);
+            this.txt_apellido.Name = "txt_apellido";
+            this.txt_apellido.Size = new System.Drawing.Size(136, 32);
+            this.txt_apellido.TabIndex = 5;
             // 
-            // textBox2
+            // txt_nombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(107, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 32);
-            this.textBox2.TabIndex = 4;
+            this.txt_nombre.Location = new System.Drawing.Point(107, 38);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(136, 32);
+            this.txt_nombre.TabIndex = 4;
             // 
             // label4
             // 
@@ -121,11 +121,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.rbtn_camioneta);
+            this.groupBox2.Controls.Add(this.rbtn_moto);
+            this.groupBox2.Controls.Add(this.rbtn_auto);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.txt_patente);
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -136,38 +136,38 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Vehiculo";
             // 
-            // radioButton4
+            // rbtn_camioneta
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(345, 144);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(132, 27);
-            this.radioButton4.TabIndex = 9;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Camioneta";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbtn_camioneta.AutoSize = true;
+            this.rbtn_camioneta.Location = new System.Drawing.Point(345, 144);
+            this.rbtn_camioneta.Name = "rbtn_camioneta";
+            this.rbtn_camioneta.Size = new System.Drawing.Size(132, 27);
+            this.rbtn_camioneta.TabIndex = 9;
+            this.rbtn_camioneta.TabStop = true;
+            this.rbtn_camioneta.Text = "Camioneta";
+            this.rbtn_camioneta.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbtn_moto
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(183, 144);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(76, 27);
-            this.radioButton3.TabIndex = 8;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Moto";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbtn_moto.AutoSize = true;
+            this.rbtn_moto.Location = new System.Drawing.Point(183, 144);
+            this.rbtn_moto.Name = "rbtn_moto";
+            this.rbtn_moto.Size = new System.Drawing.Size(76, 27);
+            this.rbtn_moto.TabIndex = 8;
+            this.rbtn_moto.TabStop = true;
+            this.rbtn_moto.Text = "Moto";
+            this.rbtn_moto.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtn_auto
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(43, 144);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(73, 27);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Auto";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtn_auto.AutoSize = true;
+            this.rbtn_auto.Location = new System.Drawing.Point(43, 144);
+            this.rbtn_auto.Name = "rbtn_auto";
+            this.rbtn_auto.Size = new System.Drawing.Size(73, 27);
+            this.rbtn_auto.TabIndex = 7;
+            this.rbtn_auto.TabStop = true;
+            this.rbtn_auto.Text = "Auto";
+            this.rbtn_auto.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -178,12 +178,12 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Patente:";
             // 
-            // textBox4
+            // txt_patente
             // 
-            this.textBox4.Location = new System.Drawing.Point(183, 85);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 32);
-            this.textBox4.TabIndex = 5;
+            this.txt_patente.Location = new System.Drawing.Point(183, 85);
+            this.txt_patente.Name = "txt_patente";
+            this.txt_patente.Size = new System.Drawing.Size(180, 32);
+            this.txt_patente.TabIndex = 5;
             // 
             // textBox5
             // 
@@ -195,16 +195,16 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 41);
+            this.label5.Location = new System.Drawing.Point(39, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(171, 23);
+            this.label5.Size = new System.Drawing.Size(89, 23);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Marca y Modelo:";
+            this.label5.Text = "Modelo:";
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton6);
-            this.groupBox3.Controls.Add(this.radioButton5);
+            this.groupBox3.Controls.Add(this.rbtn_dia);
+            this.groupBox3.Controls.Add(this.rbtn_mes);
             this.groupBox3.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(21, 12);
             this.groupBox3.Name = "groupBox3";
@@ -213,27 +213,27 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Estadia";
             // 
-            // radioButton6
+            // rbtn_dia
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(107, 42);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(60, 27);
-            this.radioButton6.TabIndex = 10;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Dia";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbtn_dia.AutoSize = true;
+            this.rbtn_dia.Location = new System.Drawing.Point(107, 42);
+            this.rbtn_dia.Name = "rbtn_dia";
+            this.rbtn_dia.Size = new System.Drawing.Size(60, 27);
+            this.rbtn_dia.TabIndex = 10;
+            this.rbtn_dia.TabStop = true;
+            this.rbtn_dia.Text = "Dia";
+            this.rbtn_dia.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rbtn_mes
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(295, 42);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(68, 27);
-            this.radioButton5.TabIndex = 9;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Mes";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbtn_mes.AutoSize = true;
+            this.rbtn_mes.Location = new System.Drawing.Point(295, 42);
+            this.rbtn_mes.Name = "rbtn_mes";
+            this.rbtn_mes.Size = new System.Drawing.Size(68, 27);
+            this.rbtn_mes.TabIndex = 9;
+            this.rbtn_mes.TabStop = true;
+            this.rbtn_mes.Text = "Mes";
+            this.rbtn_mes.UseVisualStyleBackColor = true;
             // 
             // btn_regresar
             // 
@@ -244,6 +244,7 @@
             this.btn_regresar.TabIndex = 9;
             this.btn_regresar.Text = "Cancelar";
             this.btn_regresar.UseVisualStyleBackColor = true;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
             // 
             // btn_aceptar_carga
             // 
@@ -280,23 +281,23 @@
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.MaskedTextBox mktxt_telefono;
+        private System.Windows.Forms.TextBox txt_apellido;
+        private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_patente;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rbtn_camioneta;
+        private System.Windows.Forms.RadioButton rbtn_moto;
+        private System.Windows.Forms.RadioButton rbtn_auto;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton rbtn_mes;
+        private System.Windows.Forms.RadioButton rbtn_dia;
         private System.Windows.Forms.Button btn_regresar;
         private System.Windows.Forms.Button btn_aceptar_carga;
     }

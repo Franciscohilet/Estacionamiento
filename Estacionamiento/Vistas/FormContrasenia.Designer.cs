@@ -30,24 +30,24 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_aceptar = new System.Windows.Forms.Button();
-            this.txt_contranueva = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btn_regresar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txt_respuestapregunta = new System.Windows.Forms.TextBox();
-            this.lbl_pregunta = new System.Windows.Forms.Label();
-            this.Verificador = new System.Windows.Forms.ToolTip(this.components);
             this.btn_corroborarrespuesta = new System.Windows.Forms.Button();
+            this.txt_respuestapregunta = new System.Windows.Forms.TextBox();
+            this.panel_contranueva = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt_contranueva = new System.Windows.Forms.TextBox();
+            this.lbl_pregunta = new System.Windows.Forms.Label();
+            this.btn_regresar = new System.Windows.Forms.Button();
+            this.btn_aceptar = new System.Windows.Forms.Button();
+            this.Verificador = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panel_contranueva.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btn_corroborarrespuesta);
             this.groupBox1.Controls.Add(this.txt_respuestapregunta);
-            this.groupBox1.Controls.Add(this.panel1);
+            this.groupBox1.Controls.Add(this.panel_contranueva);
             this.groupBox1.Controls.Add(this.lbl_pregunta);
             this.groupBox1.Controls.Add(this.btn_regresar);
             this.groupBox1.Controls.Add(this.btn_aceptar);
@@ -59,21 +59,33 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cambiar Contraseña";
             // 
-            // btn_aceptar
+            // btn_corroborarrespuesta
             // 
-            this.btn_aceptar.Location = new System.Drawing.Point(272, 317);
-            this.btn_aceptar.Name = "btn_aceptar";
-            this.btn_aceptar.Size = new System.Drawing.Size(180, 60);
-            this.btn_aceptar.TabIndex = 7;
-            this.btn_aceptar.Text = "Aceptar";
-            this.btn_aceptar.UseVisualStyleBackColor = true;
+            this.btn_corroborarrespuesta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_corroborarrespuesta.Location = new System.Drawing.Point(255, 157);
+            this.btn_corroborarrespuesta.Name = "btn_corroborarrespuesta";
+            this.btn_corroborarrespuesta.Size = new System.Drawing.Size(167, 44);
+            this.btn_corroborarrespuesta.TabIndex = 10;
+            this.btn_corroborarrespuesta.Text = "Corroborar";
+            this.btn_corroborarrespuesta.UseVisualStyleBackColor = true;
+            this.btn_corroborarrespuesta.Click += new System.EventHandler(this.btn_corroborarrespuesta_Click);
             // 
-            // txt_contranueva
+            // txt_respuestapregunta
             // 
-            this.txt_contranueva.Location = new System.Drawing.Point(213, 20);
-            this.txt_contranueva.Name = "txt_contranueva";
-            this.txt_contranueva.Size = new System.Drawing.Size(169, 32);
-            this.txt_contranueva.TabIndex = 5;
+            this.txt_respuestapregunta.Location = new System.Drawing.Point(13, 157);
+            this.txt_respuestapregunta.Name = "txt_respuestapregunta";
+            this.txt_respuestapregunta.Size = new System.Drawing.Size(212, 32);
+            this.txt_respuestapregunta.TabIndex = 7;
+            // 
+            // panel_contranueva
+            // 
+            this.panel_contranueva.Controls.Add(this.label3);
+            this.panel_contranueva.Controls.Add(this.txt_contranueva);
+            this.panel_contranueva.Location = new System.Drawing.Point(10, 223);
+            this.panel_contranueva.Name = "panel_contranueva";
+            this.panel_contranueva.Size = new System.Drawing.Size(398, 67);
+            this.panel_contranueva.TabIndex = 9;
+            this.panel_contranueva.Visible = false;
             // 
             // label3
             // 
@@ -84,30 +96,12 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Contraseña nueva:";
             // 
-            // btn_regresar
+            // txt_contranueva
             // 
-            this.btn_regresar.Location = new System.Drawing.Point(10, 317);
-            this.btn_regresar.Name = "btn_regresar";
-            this.btn_regresar.Size = new System.Drawing.Size(180, 60);
-            this.btn_regresar.TabIndex = 8;
-            this.btn_regresar.Text = "Regresar";
-            this.btn_regresar.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txt_contranueva);
-            this.panel1.Location = new System.Drawing.Point(10, 223);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(398, 67);
-            this.panel1.TabIndex = 9;
-            // 
-            // txt_respuestapregunta
-            // 
-            this.txt_respuestapregunta.Location = new System.Drawing.Point(13, 157);
-            this.txt_respuestapregunta.Name = "txt_respuestapregunta";
-            this.txt_respuestapregunta.Size = new System.Drawing.Size(212, 32);
-            this.txt_respuestapregunta.TabIndex = 7;
+            this.txt_contranueva.Location = new System.Drawing.Point(213, 20);
+            this.txt_contranueva.Name = "txt_contranueva";
+            this.txt_contranueva.Size = new System.Drawing.Size(169, 32);
+            this.txt_contranueva.TabIndex = 5;
             // 
             // lbl_pregunta
             // 
@@ -119,14 +113,23 @@
             this.lbl_pregunta.Text = "Pregunta";
             this.lbl_pregunta.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btn_corroborarrespuesta
+            // btn_regresar
             // 
-            this.btn_corroborarrespuesta.Location = new System.Drawing.Point(255, 157);
-            this.btn_corroborarrespuesta.Name = "btn_corroborarrespuesta";
-            this.btn_corroborarrespuesta.Size = new System.Drawing.Size(167, 44);
-            this.btn_corroborarrespuesta.TabIndex = 10;
-            this.btn_corroborarrespuesta.Text = "Corroborar";
-            this.btn_corroborarrespuesta.UseVisualStyleBackColor = true;
+            this.btn_regresar.Location = new System.Drawing.Point(10, 317);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(180, 60);
+            this.btn_regresar.TabIndex = 8;
+            this.btn_regresar.Text = "Regresar";
+            this.btn_regresar.UseVisualStyleBackColor = true;
+            // 
+            // btn_aceptar
+            // 
+            this.btn_aceptar.Location = new System.Drawing.Point(272, 317);
+            this.btn_aceptar.Name = "btn_aceptar";
+            this.btn_aceptar.Size = new System.Drawing.Size(180, 60);
+            this.btn_aceptar.TabIndex = 7;
+            this.btn_aceptar.Text = "Aceptar";
+            this.btn_aceptar.UseVisualStyleBackColor = true;
             // 
             // FormContrasenia
             // 
@@ -138,8 +141,8 @@
             this.Text = "FormContrasenia";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel_contranueva.ResumeLayout(false);
+            this.panel_contranueva.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -148,7 +151,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_respuestapregunta;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel_contranueva;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txt_contranueva;
         private System.Windows.Forms.Label lbl_pregunta;

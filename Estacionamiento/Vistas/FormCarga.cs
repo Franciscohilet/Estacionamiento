@@ -21,8 +21,14 @@ namespace Estacionamiento.Vistas
 
         private void btn_aceptar_carga_Click(object sender, EventArgs e)
         {
-            btn.BackColor = Color.Red;          
+            btn.BackColor = Color.Red;
+            btn.Text = txt_patente.Text;
             Close();
+        }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
