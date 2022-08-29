@@ -16,7 +16,7 @@ namespace Estacionamiento.Control
         {
             bool exist = false;
 
-            foreach (Empleado aux in empleados.)
+            foreach (Empleado aux in empleados.VerLista())
             {
                 if (aux.Num_Documento == Doc)
                 {
@@ -25,6 +25,19 @@ namespace Estacionamiento.Control
                 }
             }
             return exist;
+        }
+
+        public bool Agregar (Empleado aux)
+        {
+            if(!Existe(aux.Num_Documento))
+            {
+                empleados.Agregar(aux);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

@@ -14,22 +14,11 @@ namespace Estacionamiento.Data
 
         public void Agregar (Empleado aux)
         {
-
+            Empleadoslist.Add(aux);
         }
-        public bool Existe(string Doc)
+        public List<Empleado> VerLista()
         {
-            bool exist = false;
-
-            foreach (Empleado aux in Empleadoslist)
-            {
-                if (aux.Num_Documento == Doc)
-                {
-                    exist = true;
-                    break;
-                }
-            }
-            return exist;
+            return Empleadoslist;
         }
-        VER LISTA
     }
 }
