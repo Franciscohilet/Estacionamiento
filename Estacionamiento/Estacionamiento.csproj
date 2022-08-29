@@ -50,10 +50,15 @@
     <Compile Include="Control\Cobro.cs" />
     <Compile Include="Control\estacionamiento.cs" />
     <Compile Include="Data\Empleados.cs" />
+    <Compile Include="Data\Precios.cs" />
     <Compile Include="Data\Vehiculos.cs" />
+    <Compile Include="ClasesBases\Aranceles.cs" />
     <Compile Include="Modelos\Empleado.cs" />
-    <Compile Include="Modelos\Icrud.cs" />
-    <Compile Include="Modelos\vehiculo.cs" />
+    <Compile Include="ClasesBases\Icrud.cs" />
+    <Compile Include="Modelos\PrecioAuto.cs" />
+    <Compile Include="Modelos\PrecioCamioneta.cs" />
+    <Compile Include="Modelos\PrecioMoto.cs" />
+    <Compile Include="Modelos\Vehiculo.cs" />
     <Compile Include="Vistas\FormAdministracion.cs">
       <SubType>Form</SubType>
     </Compile>

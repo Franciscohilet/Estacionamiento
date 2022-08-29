@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Estacionamiento.Modelos
 {
-    public class vehiculo
+    public class Vehiculo
     {
         public string telefono { get; set; }
         public string modelo { get; set; }
@@ -17,7 +17,7 @@ namespace Estacionamiento.Modelos
         public string patente { get; set; }
         public string tipovehiculo { get; set; }
 
-        public vehiculo(string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
+        public Vehiculo(string telefono, string modelo, string nombre, string apellido, string patente, string tipovehiculo)
         {
             this.telefono = telefono;
             this.modelo = modelo;

@@ -10,10 +10,10 @@ namespace Estacionamiento.Data
 {
     public class Vehiculos
     {
-        List<vehiculo> Vehiculoslist = new List<vehiculo>();
+        List<Vehiculo> Vehiculoslist = new List<Vehiculo>();
 
         // agregar vehiculos a la lista
-        public void Add(vehiculo aux)
+        public void Add(Vehiculo aux)
         {
             if (!this.Exist(aux.patente))
             {
@@ -25,7 +25,7 @@ namespace Estacionamiento.Data
         {
             bool exist = false;
 
-            foreach (vehiculo aux in Vehiculoslist)
+            foreach (Vehiculo aux in Vehiculoslist)
             {
                 if (aux.patente == patente)
                 {
@@ -36,19 +36,19 @@ namespace Estacionamiento.Data
             return exist;
         }
 
-        public void Remove(vehiculo aux)
+        public void Remove(Vehiculo aux)
         {
             Vehiculoslist.Remove(aux);
         }
 
-        public List<vehiculo> VerLista()
+        public List<Vehiculo> VerLista()
         {
             return Vehiculoslist;
         }
 
-        public vehiculo VerVehiculo(string patente)
+        public Vehiculo VerVehiculo(string patente)
         {
-            foreach (vehiculo vehiculo in Vehiculoslist)
+            foreach (Vehiculo vehiculo in Vehiculoslist)
             {
                 if (vehiculo.patente == patente)
                 {
