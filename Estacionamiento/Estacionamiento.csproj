@@ -54,12 +54,15 @@
     <Compile Include="Data\Precios.cs" />
     <Compile Include="Data\Vehiculos.cs" />
     <Compile Include="ClasesBases\Aranceles.cs" />
+    <Compile Include="Modelos\Auto.cs" />
+    <Compile Include="Modelos\Camioneta.cs" />
     <Compile Include="Modelos\Empleado.cs" />
     <Compile Include="ClasesBases\Icrud.cs" />
+    <Compile Include="Modelos\Moto.cs" />
     <Compile Include="Modelos\PrecioAuto.cs" />
     <Compile Include="Modelos\PrecioCamioneta.cs" />
     <Compile Include="Modelos\PrecioMoto.cs" />
-    <Compile Include="Modelos\Vehiculo.cs" />
+    <Compile Include="ClasesBases\Vehiculo.cs" />
     <Compile Include="Vistas\FormAdministracion.cs">
       <SubType>Form</SubType>
     </Compile>
