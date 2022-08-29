@@ -10,12 +10,12 @@ namespace Estacionamiento.Modelos
     {
         public string Nombre { get; set; }  
         public string Apellido { get; set; }
-        public long Num_Documento { get; set; }
+        public string Num_Documento { get; set; }
         public string Nom_Usuario { get; set; }
         public string Contraseña { get; set; }
         public string Preg_Secreta { get; set; }
-
-        // FALTA RESPUESTA?
+        public string Respuesta { get; set; }
+        public bool Administrador { get; set; }
 
         public Empleado (string Nombre, string Apellido, long Num_Documento, string Nom_Usuario, string Contraseña, string Preg_Secreta)
         {

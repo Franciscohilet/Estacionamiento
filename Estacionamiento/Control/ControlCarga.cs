@@ -8,7 +8,7 @@ using Estacionamiento.Modelos;
 
 namespace Estacionamiento.Vistas
 {
-    public class Carga
+    public class ControlCarga
     {
         
     

@@ -3,24 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Estacionamiento.Data;
 using Estacionamiento.Modelos;
-using Estacionamiento.Vistas;
 
-namespace Estacionamiento.Data
+
+namespace Estacionamiento.Control
 {
-    public class Empleados
+    public class ControlEmpleados
     {
-        List<Empleado> Empleadoslist = new List<Empleado>();
-
-        public void Agregar (Empleado aux)
-        {
-
-        }
+        Empleados empleados;
         public bool Existe(string Doc)
         {
             bool exist = false;
 
-            foreach (Empleado aux in Empleadoslist)
+            foreach (Empleado aux in empleados.)
             {
                 if (aux.Num_Documento == Doc)
                 {
@@ -30,6 +26,5 @@ namespace Estacionamiento.Data
             }
             return exist;
         }
-        VER LISTA
     }
 }

@@ -8,7 +8,7 @@ using Estacionamiento.Modelos;
 
 namespace Estacionamiento.Vistas
 {
-    public class estacionamiento
+    public class ControlPlazas
     {
         Vehiculos vehiculos = new Vehiculos();
         // corrobora que los datos no esten vacios y devolver la carga realizada
