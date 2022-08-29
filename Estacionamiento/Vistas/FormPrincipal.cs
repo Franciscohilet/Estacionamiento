@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Estacionamiento.Vistas;
 
 namespace Estacionamiento
 {
@@ -15,6 +16,17 @@ namespace Estacionamiento
         public FormPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void clickPlaza(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            if (button.BackColor != Color.Red)
+            {
+                FormCarga carga = new FormCarga(button);
+                carga.Owner = this;
+                carga.ShowDialog();
+            }
         }
     }
 }

@@ -30,27 +30,27 @@
         {
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
+            this.btn_A14 = new System.Windows.Forms.Button();
+            this.btn_A10 = new System.Windows.Forms.Button();
+            this.btn_A11 = new System.Windows.Forms.Button();
+            this.btn_A12 = new System.Windows.Forms.Button();
+            this.btn_A13 = new System.Windows.Forms.Button();
+            this.btn_A9 = new System.Windows.Forms.Button();
+            this.btn_A2 = new System.Windows.Forms.Button();
+            this.btn_A3 = new System.Windows.Forms.Button();
+            this.btn_A4 = new System.Windows.Forms.Button();
+            this.btn_A8 = new System.Windows.Forms.Button();
+            this.btn_A15 = new System.Windows.Forms.Button();
+            this.btn_A16 = new System.Windows.Forms.Button();
+            this.btn_A17 = new System.Windows.Forms.Button();
+            this.btn_A18 = new System.Windows.Forms.Button();
+            this.btn_A19 = new System.Windows.Forms.Button();
+            this.btn_A20 = new System.Windows.Forms.Button();
+            this.btn_A21 = new System.Windows.Forms.Button();
+            this.btn_A5 = new System.Windows.Forms.Button();
+            this.btn_A6 = new System.Windows.Forms.Button();
+            this.btn_A7 = new System.Windows.Forms.Button();
+            this.btn_A1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -68,27 +68,27 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.button21);
-            this.tabPage1.Controls.Add(this.button16);
-            this.tabPage1.Controls.Add(this.button15);
-            this.tabPage1.Controls.Add(this.button14);
-            this.tabPage1.Controls.Add(this.button3);
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button20);
-            this.tabPage1.Controls.Add(this.button19);
-            this.tabPage1.Controls.Add(this.button18);
-            this.tabPage1.Controls.Add(this.button17);
-            this.tabPage1.Controls.Add(this.button13);
-            this.tabPage1.Controls.Add(this.button12);
-            this.tabPage1.Controls.Add(this.button11);
-            this.tabPage1.Controls.Add(this.button10);
-            this.tabPage1.Controls.Add(this.button9);
-            this.tabPage1.Controls.Add(this.button8);
-            this.tabPage1.Controls.Add(this.button7);
-            this.tabPage1.Controls.Add(this.button6);
-            this.tabPage1.Controls.Add(this.button5);
-            this.tabPage1.Controls.Add(this.button4);
-            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.btn_A14);
+            this.tabPage1.Controls.Add(this.btn_A10);
+            this.tabPage1.Controls.Add(this.btn_A11);
+            this.tabPage1.Controls.Add(this.btn_A12);
+            this.tabPage1.Controls.Add(this.btn_A13);
+            this.tabPage1.Controls.Add(this.btn_A9);
+            this.tabPage1.Controls.Add(this.btn_A2);
+            this.tabPage1.Controls.Add(this.btn_A3);
+            this.tabPage1.Controls.Add(this.btn_A4);
+            this.tabPage1.Controls.Add(this.btn_A8);
+            this.tabPage1.Controls.Add(this.btn_A15);
+            this.tabPage1.Controls.Add(this.btn_A16);
+            this.tabPage1.Controls.Add(this.btn_A17);
+            this.tabPage1.Controls.Add(this.btn_A18);
+            this.tabPage1.Controls.Add(this.btn_A19);
+            this.tabPage1.Controls.Add(this.btn_A20);
+            this.tabPage1.Controls.Add(this.btn_A21);
+            this.tabPage1.Controls.Add(this.btn_A5);
+            this.tabPage1.Controls.Add(this.btn_A6);
+            this.tabPage1.Controls.Add(this.btn_A7);
+            this.tabPage1.Controls.Add(this.btn_A1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -97,194 +97,254 @@
             this.tabPage1.Text = "Playon";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_A14
             // 
-            this.button1.Location = new System.Drawing.Point(20, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 180);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_A14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A14.Location = new System.Drawing.Point(984, 225);
+            this.btn_A14.Name = "btn_A14";
+            this.btn_A14.Size = new System.Drawing.Size(120, 160);
+            this.btn_A14.TabIndex = 25;
+            this.btn_A14.Text = "A14";
+            this.btn_A14.UseVisualStyleBackColor = true;
+            this.btn_A14.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button4
+            // btn_A10
             // 
-            this.button4.Location = new System.Drawing.Point(984, 18);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 180);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_A10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A10.Location = new System.Drawing.Point(334, 225);
+            this.btn_A10.Name = "btn_A10";
+            this.btn_A10.Size = new System.Drawing.Size(120, 160);
+            this.btn_A10.TabIndex = 24;
+            this.btn_A10.Text = "A10";
+            this.btn_A10.UseVisualStyleBackColor = true;
+            this.btn_A10.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button5
+            // btn_A11
             // 
-            this.button5.Location = new System.Drawing.Point(823, 18);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 180);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_A11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A11.Location = new System.Drawing.Point(495, 223);
+            this.btn_A11.Name = "btn_A11";
+            this.btn_A11.Size = new System.Drawing.Size(120, 160);
+            this.btn_A11.TabIndex = 23;
+            this.btn_A11.Text = "A11";
+            this.btn_A11.UseVisualStyleBackColor = true;
+            this.btn_A11.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button6
+            // btn_A12
             // 
-            this.button6.Location = new System.Drawing.Point(659, 18);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 180);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_A12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A12.Location = new System.Drawing.Point(659, 223);
+            this.btn_A12.Name = "btn_A12";
+            this.btn_A12.Size = new System.Drawing.Size(120, 160);
+            this.btn_A12.TabIndex = 22;
+            this.btn_A12.Text = "A12";
+            this.btn_A12.UseVisualStyleBackColor = true;
+            this.btn_A12.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button7
+            // btn_A13
             // 
-            this.button7.Location = new System.Drawing.Point(984, 409);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(120, 180);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_A13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A13.Location = new System.Drawing.Point(823, 223);
+            this.btn_A13.Name = "btn_A13";
+            this.btn_A13.Size = new System.Drawing.Size(120, 160);
+            this.btn_A13.TabIndex = 21;
+            this.btn_A13.Text = "A13";
+            this.btn_A13.UseVisualStyleBackColor = true;
+            this.btn_A13.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button8
+            // btn_A9
             // 
-            this.button8.Location = new System.Drawing.Point(823, 409);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(120, 180);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_A9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A9.Location = new System.Drawing.Point(172, 223);
+            this.btn_A9.Name = "btn_A9";
+            this.btn_A9.Size = new System.Drawing.Size(120, 160);
+            this.btn_A9.TabIndex = 20;
+            this.btn_A9.Text = "A9";
+            this.btn_A9.UseVisualStyleBackColor = true;
+            this.btn_A9.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button9
+            // btn_A2
             // 
-            this.button9.Location = new System.Drawing.Point(659, 409);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(120, 180);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_A2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A2.Location = new System.Drawing.Point(172, 18);
+            this.btn_A2.Name = "btn_A2";
+            this.btn_A2.Size = new System.Drawing.Size(120, 180);
+            this.btn_A2.TabIndex = 19;
+            this.btn_A2.Text = "A2";
+            this.btn_A2.UseVisualStyleBackColor = true;
+            this.btn_A2.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button10
+            // btn_A3
             // 
-            this.button10.Location = new System.Drawing.Point(495, 409);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(120, 180);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_A3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A3.Location = new System.Drawing.Point(334, 18);
+            this.btn_A3.Name = "btn_A3";
+            this.btn_A3.Size = new System.Drawing.Size(120, 180);
+            this.btn_A3.TabIndex = 18;
+            this.btn_A3.Text = "A3";
+            this.btn_A3.UseVisualStyleBackColor = true;
+            this.btn_A3.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button11
+            // btn_A4
             // 
-            this.button11.Location = new System.Drawing.Point(334, 409);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(120, 180);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btn_A4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A4.Location = new System.Drawing.Point(495, 18);
+            this.btn_A4.Name = "btn_A4";
+            this.btn_A4.Size = new System.Drawing.Size(120, 180);
+            this.btn_A4.TabIndex = 17;
+            this.btn_A4.Text = "A4";
+            this.btn_A4.UseVisualStyleBackColor = true;
+            this.btn_A4.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button12
+            // btn_A8
             // 
-            this.button12.Location = new System.Drawing.Point(172, 409);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(120, 180);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btn_A8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A8.Location = new System.Drawing.Point(20, 223);
+            this.btn_A8.Name = "btn_A8";
+            this.btn_A8.Size = new System.Drawing.Size(120, 160);
+            this.btn_A8.TabIndex = 16;
+            this.btn_A8.Text = "A8";
+            this.btn_A8.UseVisualStyleBackColor = true;
+            this.btn_A8.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button13
+            // btn_A15
             // 
-            this.button13.Location = new System.Drawing.Point(20, 409);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(120, 180);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btn_A15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A15.Location = new System.Drawing.Point(20, 409);
+            this.btn_A15.Name = "btn_A15";
+            this.btn_A15.Size = new System.Drawing.Size(120, 160);
+            this.btn_A15.TabIndex = 12;
+            this.btn_A15.Text = "A15";
+            this.btn_A15.UseVisualStyleBackColor = true;
+            this.btn_A15.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button17
+            // btn_A16
             // 
-            this.button17.Location = new System.Drawing.Point(20, 223);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(120, 160);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.btn_A16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A16.Location = new System.Drawing.Point(172, 409);
+            this.btn_A16.Name = "btn_A16";
+            this.btn_A16.Size = new System.Drawing.Size(120, 160);
+            this.btn_A16.TabIndex = 11;
+            this.btn_A16.Text = "A16";
+            this.btn_A16.UseVisualStyleBackColor = true;
+            this.btn_A16.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button18
+            // btn_A17
             // 
-            this.button18.Location = new System.Drawing.Point(495, 18);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(120, 180);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btn_A17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A17.Location = new System.Drawing.Point(334, 409);
+            this.btn_A17.Name = "btn_A17";
+            this.btn_A17.Size = new System.Drawing.Size(120, 160);
+            this.btn_A17.TabIndex = 10;
+            this.btn_A17.Text = "A17";
+            this.btn_A17.UseVisualStyleBackColor = true;
+            this.btn_A17.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button19
+            // btn_A18
             // 
-            this.button19.Location = new System.Drawing.Point(334, 18);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(120, 180);
-            this.button19.TabIndex = 18;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
+            this.btn_A18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A18.Location = new System.Drawing.Point(495, 409);
+            this.btn_A18.Name = "btn_A18";
+            this.btn_A18.Size = new System.Drawing.Size(120, 160);
+            this.btn_A18.TabIndex = 9;
+            this.btn_A18.Text = "A18";
+            this.btn_A18.UseVisualStyleBackColor = true;
+            this.btn_A18.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button20
+            // btn_A19
             // 
-            this.button20.Location = new System.Drawing.Point(172, 18);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(120, 180);
-            this.button20.TabIndex = 19;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
+            this.btn_A19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A19.Location = new System.Drawing.Point(659, 409);
+            this.btn_A19.Name = "btn_A19";
+            this.btn_A19.Size = new System.Drawing.Size(120, 160);
+            this.btn_A19.TabIndex = 8;
+            this.btn_A19.Text = "A19";
+            this.btn_A19.UseVisualStyleBackColor = true;
+            this.btn_A19.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button2
+            // btn_A20
             // 
-            this.button2.Location = new System.Drawing.Point(172, 223);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 160);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_A20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A20.Location = new System.Drawing.Point(823, 409);
+            this.btn_A20.Name = "btn_A20";
+            this.btn_A20.Size = new System.Drawing.Size(120, 160);
+            this.btn_A20.TabIndex = 7;
+            this.btn_A20.Text = "A20";
+            this.btn_A20.UseVisualStyleBackColor = true;
+            this.btn_A20.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button3
+            // btn_A21
             // 
-            this.button3.Location = new System.Drawing.Point(823, 223);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 160);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_A21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A21.Location = new System.Drawing.Point(984, 409);
+            this.btn_A21.Name = "btn_A21";
+            this.btn_A21.Size = new System.Drawing.Size(120, 160);
+            this.btn_A21.TabIndex = 6;
+            this.btn_A21.Text = "A21";
+            this.btn_A21.UseVisualStyleBackColor = true;
+            this.btn_A21.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button14
+            // btn_A5
             // 
-            this.button14.Location = new System.Drawing.Point(659, 223);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(120, 160);
-            this.button14.TabIndex = 22;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_A5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A5.Location = new System.Drawing.Point(659, 18);
+            this.btn_A5.Name = "btn_A5";
+            this.btn_A5.Size = new System.Drawing.Size(120, 180);
+            this.btn_A5.TabIndex = 5;
+            this.btn_A5.Text = "A5";
+            this.btn_A5.UseVisualStyleBackColor = true;
+            this.btn_A5.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button15
+            // btn_A6
             // 
-            this.button15.Location = new System.Drawing.Point(495, 223);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(120, 160);
-            this.button15.TabIndex = 23;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.btn_A6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A6.Location = new System.Drawing.Point(823, 18);
+            this.btn_A6.Name = "btn_A6";
+            this.btn_A6.Size = new System.Drawing.Size(120, 180);
+            this.btn_A6.TabIndex = 4;
+            this.btn_A6.Text = "A6";
+            this.btn_A6.UseVisualStyleBackColor = true;
+            this.btn_A6.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button16
+            // btn_A7
             // 
-            this.button16.Location = new System.Drawing.Point(334, 225);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(120, 160);
-            this.button16.TabIndex = 24;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btn_A7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_A7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A7.Location = new System.Drawing.Point(984, 18);
+            this.btn_A7.Name = "btn_A7";
+            this.btn_A7.Size = new System.Drawing.Size(120, 180);
+            this.btn_A7.TabIndex = 3;
+            this.btn_A7.Text = "A7";
+            this.btn_A7.UseVisualStyleBackColor = true;
+            this.btn_A7.Click += new System.EventHandler(this.clickPlaza);
             // 
-            // button21
+            // btn_A1
             // 
-            this.button21.Location = new System.Drawing.Point(984, 225);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(120, 160);
-            this.button21.TabIndex = 25;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
+            this.btn_A1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_A1.Location = new System.Drawing.Point(20, 18);
+            this.btn_A1.Name = "btn_A1";
+            this.btn_A1.Size = new System.Drawing.Size(120, 180);
+            this.btn_A1.TabIndex = 0;
+            this.btn_A1.Text = "A1";
+            this.btn_A1.UseVisualStyleBackColor = true;
+            this.btn_A1.Click += new System.EventHandler(this.clickPlaza);
             // 
             // tabControl1
             // 
@@ -314,27 +374,27 @@
         #endregion
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_A14;
+        private System.Windows.Forms.Button btn_A10;
+        private System.Windows.Forms.Button btn_A11;
+        private System.Windows.Forms.Button btn_A12;
+        private System.Windows.Forms.Button btn_A13;
+        private System.Windows.Forms.Button btn_A9;
+        private System.Windows.Forms.Button btn_A2;
+        private System.Windows.Forms.Button btn_A3;
+        private System.Windows.Forms.Button btn_A4;
+        private System.Windows.Forms.Button btn_A8;
+        private System.Windows.Forms.Button btn_A15;
+        private System.Windows.Forms.Button btn_A16;
+        private System.Windows.Forms.Button btn_A17;
+        private System.Windows.Forms.Button btn_A18;
+        private System.Windows.Forms.Button btn_A19;
+        private System.Windows.Forms.Button btn_A20;
+        private System.Windows.Forms.Button btn_A21;
+        private System.Windows.Forms.Button btn_A5;
+        private System.Windows.Forms.Button btn_A6;
+        private System.Windows.Forms.Button btn_A7;
+        private System.Windows.Forms.Button btn_A1;
         private System.Windows.Forms.TabControl tabControl1;
     }
 }

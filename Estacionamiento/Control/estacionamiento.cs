@@ -34,7 +34,7 @@ namespace Estacionamiento.Vistas
             {
                 if (vehiculo.patente == patente)
                 {
-                    vehiculos.Remove(aux);
+                    //vehiculos.Remove(aux);
                     break;
                 }
                 else
@@ -42,6 +42,7 @@ namespace Estacionamiento.Vistas
                     return false;
                 }
             }
+            return false;
         }
     }
 }

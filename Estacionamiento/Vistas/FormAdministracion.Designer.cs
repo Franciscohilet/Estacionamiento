@@ -30,9 +30,9 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Tarifas = new System.Windows.Forms.TabPage();
-            this.Facturacion = new System.Windows.Forms.TabPage();
             this.button26 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -40,6 +40,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -47,6 +54,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
@@ -61,37 +75,23 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Facturacion = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Usuarios = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.Tarifas.SuspendLayout();
-            this.Facturacion.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.Facturacion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.Usuarios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -125,17 +125,6 @@
             this.Tarifas.Text = "Tarifas";
             this.Tarifas.UseVisualStyleBackColor = true;
             // 
-            // Facturacion
-            // 
-            this.Facturacion.Controls.Add(this.dataGridView2);
-            this.Facturacion.Location = new System.Drawing.Point(4, 22);
-            this.Facturacion.Name = "Facturacion";
-            this.Facturacion.Padding = new System.Windows.Forms.Padding(3);
-            this.Facturacion.Size = new System.Drawing.Size(1023, 414);
-            this.Facturacion.TabIndex = 1;
-            this.Facturacion.Text = "Facturacion";
-            this.Facturacion.UseVisualStyleBackColor = true;
-            // 
             // button26
             // 
             this.button26.Location = new System.Drawing.Point(133, 493);
@@ -153,6 +142,16 @@
             this.button25.TabIndex = 3;
             this.button25.Text = "Cancelar";
             this.button25.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 14.25F);
+            this.label1.Location = new System.Drawing.Point(28, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 21);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Tarifas Actuales";
             // 
             // groupBox4
             // 
@@ -221,6 +220,73 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Camioneta:";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(32, 47);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(263, 139);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Por hora";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(140, 101);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 32);
+            this.textBox3.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(140, 63);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 32);
+            this.textBox2.TabIndex = 16;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(140, 24);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 32);
+            this.textBox1.TabIndex = 15;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 67);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 21);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Auto:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(6, 28);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(61, 21);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Moto:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(6, 105);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(111, 21);
+            this.label14.TabIndex = 14;
+            this.label14.Text = "Camioneta:";
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.textBox13);
@@ -287,6 +353,73 @@
             this.label9.Size = new System.Drawing.Size(111, 21);
             this.label9.TabIndex = 14;
             this.label9.Text = "Camioneta:";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(355, 51);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(266, 135);
+            this.groupBox2.TabIndex = 16;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Diaria";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(140, 100);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 32);
+            this.textBox4.TabIndex = 20;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(6, 67);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(57, 21);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Auto:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(140, 62);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 32);
+            this.textBox5.TabIndex = 19;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(6, 28);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(61, 21);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "Moto:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(140, 24);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 32);
+            this.textBox6.TabIndex = 18;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(6, 104);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(111, 21);
+            this.label17.TabIndex = 14;
+            this.label17.Text = "Camioneta:";
             // 
             // groupBox6
             // 
@@ -422,140 +555,6 @@
             this.label20.TabIndex = 14;
             this.label20.Text = "Camioneta:";
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(355, 51);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(266, 135);
-            this.groupBox2.TabIndex = 16;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Diaria";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(140, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 32);
-            this.textBox4.TabIndex = 20;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(6, 67);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 21);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "Auto:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(140, 62);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 32);
-            this.textBox5.TabIndex = 19;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(6, 28);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 21);
-            this.label16.TabIndex = 13;
-            this.label16.Text = "Moto:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(140, 24);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 32);
-            this.textBox6.TabIndex = 18;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(6, 104);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(111, 21);
-            this.label17.TabIndex = 14;
-            this.label17.Text = "Camioneta:";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(32, 47);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(263, 139);
-            this.groupBox1.TabIndex = 15;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Por hora";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(140, 101);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 32);
-            this.textBox3.TabIndex = 17;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(140, 63);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 32);
-            this.textBox2.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(140, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 32);
-            this.textBox1.TabIndex = 15;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 21);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Auto:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(6, 28);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(61, 21);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Moto:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(6, 105);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(111, 21);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "Camioneta:";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -566,15 +565,25 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nuevas Tarifas";
             // 
-            // label1
+            // Facturacion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 14.25F);
-            this.label1.Location = new System.Drawing.Point(28, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Tarifas Actuales";
+            this.Facturacion.Controls.Add(this.dataGridView2);
+            this.Facturacion.Location = new System.Drawing.Point(4, 22);
+            this.Facturacion.Name = "Facturacion";
+            this.Facturacion.Padding = new System.Windows.Forms.Padding(3);
+            this.Facturacion.Size = new System.Drawing.Size(1023, 414);
+            this.Facturacion.TabIndex = 1;
+            this.Facturacion.Text = "Facturacion";
+            this.Facturacion.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(1017, 408);
+            this.dataGridView2.TabIndex = 0;
             // 
             // Usuarios
             // 
@@ -596,15 +605,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1023, 414);
             this.dataGridView1.TabIndex = 0;
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(1017, 408);
-            this.dataGridView2.TabIndex = 0;
-            // 
             // FormAdministracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -616,22 +616,22 @@
             this.tabControl1.ResumeLayout(false);
             this.Tarifas.ResumeLayout(false);
             this.Tarifas.PerformLayout();
-            this.Facturacion.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Facturacion.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.Usuarios.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }

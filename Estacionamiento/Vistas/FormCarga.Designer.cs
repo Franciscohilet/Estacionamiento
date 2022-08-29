@@ -44,10 +44,10 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.btn_regresar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_aceptar_carga = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -213,17 +213,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Estadia";
             // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(295, 42);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(68, 27);
-            this.radioButton5.TabIndex = 9;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Mes";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
@@ -235,6 +224,17 @@
             this.radioButton6.Text = "Dia";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(295, 42);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(68, 27);
+            this.radioButton5.TabIndex = 9;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Mes";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
             // btn_regresar
             // 
             this.btn_regresar.Font = new System.Drawing.Font("Rockwell", 15.75F);
@@ -245,22 +245,23 @@
             this.btn_regresar.Text = "Cancelar";
             this.btn_regresar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_aceptar_carga
             // 
-            this.button1.Font = new System.Drawing.Font("Rockwell", 15.75F);
-            this.button1.Location = new System.Drawing.Point(366, 465);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 75);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_aceptar_carga.Font = new System.Drawing.Font("Rockwell", 15.75F);
+            this.btn_aceptar_carga.Location = new System.Drawing.Point(366, 465);
+            this.btn_aceptar_carga.Name = "btn_aceptar_carga";
+            this.btn_aceptar_carga.Size = new System.Drawing.Size(180, 75);
+            this.btn_aceptar_carga.TabIndex = 10;
+            this.btn_aceptar_carga.Text = "Aceptar";
+            this.btn_aceptar_carga.UseVisualStyleBackColor = true;
+            this.btn_aceptar_carga.Click += new System.EventHandler(this.btn_aceptar_carga_Click);
             // 
             // FormCarga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(573, 561);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_aceptar_carga);
             this.Controls.Add(this.btn_regresar);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -297,6 +298,6 @@
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Button btn_regresar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_aceptar_carga;
     }
 }

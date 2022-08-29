@@ -15,6 +15,7 @@ namespace Estacionamiento.Modelos
         public string Contraseña { get; set; }
         public string Preg_Secreta { get; set; }
 
+        // FALTA RESPUESTA?
 
         public Empleado (string Nombre, string Apellido, long Num_Documento, string Nom_Usuario, string Contraseña, string Preg_Secreta)
         {

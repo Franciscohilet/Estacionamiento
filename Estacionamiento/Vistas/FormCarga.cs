@@ -12,9 +12,17 @@ namespace Estacionamiento.Vistas
 {
     public partial class FormCarga : Form
     {
-        public FormCarga()
+        Button btn;
+        public FormCarga(Button btnx)
         {
             InitializeComponent();
+            btn = btnx;
+        }
+
+        private void btn_aceptar_carga_Click(object sender, EventArgs e)
+        {
+            btn.BackColor = Color.Red;          
+            Close();
         }
     }
 }

@@ -17,5 +17,11 @@ namespace Estacionamiento.Vistas
             InitializeComponent();
         }
 
+        private void lbl_olvidecontrasenia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form contra = new Form();
+            contra.Owner = this;
+            contra.ShowDialog();
+        }
     }
 }
